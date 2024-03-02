@@ -1,5 +1,8 @@
 import type { UserType } from "./users.type";
 
+/**
+ * Hello, This is user
+ */
 export const users: UserType[] = [
 	{
 		status: "active",

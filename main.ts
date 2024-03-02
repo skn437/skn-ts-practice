@@ -11,6 +11,9 @@ import { map } from "rxjs/internal/operators/map";
 
 import { users } from "./src/users";
 
+/**
+ * Hello SKN!
+ */
 const observable = new Observable<typeof users>((subscribe) => {
 	subscribe.next(users);
 	subscribe.next(users);
